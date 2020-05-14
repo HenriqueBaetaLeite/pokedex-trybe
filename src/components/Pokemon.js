@@ -10,7 +10,7 @@ export default class Pokemon extends React.Component {
         <p>Peso médio: {averageWeight.value}</p>
         <p>{id}</p>
         <img src={image} alt={name}/>
-        <a href={moreInfo}>More Info</a>
+        <a href={moreInfo} rel="noopener noreferrer" target="_blank">More Info</a>
       </div>
     );
   }

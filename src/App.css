@@ -1,6 +1,7 @@
 .App {
-  background-color: rgb(221, 216, 245);  
+  background-color: rgb(181, 173, 219);  
   display: flex;
+  flex-direction: column;
 }
 .pokemon-card {
   background-color: rgba(128, 128, 128, 0.548);
@@ -8,17 +9,24 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin: 5px;
-  padding: 10px;
-  border: 2px solid olive;
-  border-radius: 5px;
-  height: 400px;
+  margin: 10px;
+  border: 3px solid olive;
+  border-radius: 8px;
+  box-shadow: -2px 2px 8px black;
+  height: 350px;
   width: 200px;
 }
 
 .pokemon-list {
-  margin: 10px;
   border: 3px solid black;
   display: flex;
   flex-wrap: wrap;
+  margin: 10px auto;
+  max-width: 80%;
+}
+
+.button {
+  margin: 10px;
+  max-width: 80px;
+    color: rgb(240, 132, 10);
 }
